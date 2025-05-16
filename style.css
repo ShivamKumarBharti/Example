@@ -1,0 +1,67 @@
+:root {
+  --bg: #ffffff;
+  --text: #222;
+  --primary: #3498db;
+}
+
+
+body.dark {
+  --bg: #121212;
+  --text: #eee;
+  --primary: #9b59b6;
+}
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+  transition: 0.3s ease;
+}
+
+
+header {
+  background-color: var(--primary);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+
+nav {
+  margin: 10px 0;
+}
+
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+main {
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+button#themeToggle {
+  margin-top: 10px;
+  background: white;
+  color: black;
+  border: none;
+  padding: 8px 12px;
+  cursor: pointer;
+}
